@@ -3,16 +3,13 @@ import React, { useState } from "react";
 import Chart from "react-apexcharts";
 
 const Graph: React.FC = () => {
-  const containerDivRef = React.useRef(null);
+  const containerDivRef = React.createRef<HTMLDivElement>();
   const [width, setWidth] = useState(0);
 
   React.useEffect(() => {
-    // eslint-disable-next-line no-console,@typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    // eslint-disable-next-line no-console
-    const w = containerDivRef.current.offsetWidth;
-    console.log("width", `${w}px`);
-    setWidth(w);
+    if (containerDivRef.current) {
+      setWidth(containerDivRef.current.offsetWidth);
+    }
   }, [containerDivRef]);
 
   const state = {
