@@ -15,8 +15,8 @@ const GameStats: React.FC = () => {
         <p>Transactions</p>
       </div>
       <div className="stats--transactions">
-        <div className="stats-transaction">+100.01$</div>
-        <div className="stats-transaction">-100.01$</div>
+        <div className="stats--transaction-positive">+100.01$</div>
+        <div className="stats--transaction-negative">-100.01$</div>
       </div>
     </div>
   );
