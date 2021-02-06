@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./Header.scss";
 import pug from "./pug.png";
 
 const Header: React.FC = () => {

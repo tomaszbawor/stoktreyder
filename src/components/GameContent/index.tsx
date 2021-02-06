@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./GameContent.scss";
 import GameStats from "./GameStats";
 import GameScreen from "./GameScreen";
 

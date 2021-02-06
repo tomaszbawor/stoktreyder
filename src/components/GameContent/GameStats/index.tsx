@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./GameStats.scss";
 
 const GameStats: React.FC = () => {
   return <div className="stats">Stats</div>;
