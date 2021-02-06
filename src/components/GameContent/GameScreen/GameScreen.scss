@@ -1,4 +1,18 @@
 .game-screen {
   flex-grow: 4;
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.graph {
+  height: 500px;
+  background-color: aliceblue;
+}
+
+
+.game-screen--actions {
+  display: flex;
+
+
 }
