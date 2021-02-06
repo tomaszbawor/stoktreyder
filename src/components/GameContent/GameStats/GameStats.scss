@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+@import '../../../globals';
+
 .stats {
+  font-family: 'Economica', sans-serif;
   flex-grow: 1;
-  background-color: red;
+  //background-color: red;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+
+
+  &--header {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline solid darken($platinum, 30%);
+    margin: 10px 0;
+
+    :after, :before  {
+      content: "\00a0\00a0\00a0";
+    }
+
+  }
+
+  &--content {
+    margin-left: 30px;
+    width: auto;
+  }
 }
+
