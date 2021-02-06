@@ -23,8 +23,6 @@ const Button: React.FC<Props> = ({ onClick, color, children }) => {
         return "";
     }
   }
-
-  const cls = getclass(color);
   return (
     <button
       className={`button ${getclass(color)}`}
