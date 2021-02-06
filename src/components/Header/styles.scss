@@ -1,0 +1,42 @@
+@import '../../globals';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: $platinum;
+  padding-left: 0;
+
+  $headerHeight: 15vh;
+
+  &--logo {
+    height: $headerHeight;
+  }
+
+  &--title {
+    font-family: 'Lobster', cursive;
+    //background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: $headerHeight;
+    width: 100%;
+  }
+
+  h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 46px;
+  }
+
+  &--subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+}
+
