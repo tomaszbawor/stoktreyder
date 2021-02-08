@@ -6,7 +6,7 @@ const Graph: React.FC = () => {
   const containerDivRef = React.createRef<HTMLDivElement>();
   const [width, setWidth] = useState(0);
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     if (containerDivRef.current) {
       setWidth(containerDivRef.current.offsetWidth);
     }
