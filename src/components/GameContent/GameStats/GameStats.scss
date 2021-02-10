@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
 
-
   &--header {
     display: flex;
     justify-content: center;
@@ -17,10 +16,10 @@
     margin-top: 10px;
     margin-bottom: 15px;
 
-    :after, :before  {
+    ::after,
+    ::before {
       content: "\00a0\00a0\00a0";
     }
-
   }
 
   &--transactions {
@@ -30,7 +29,6 @@
   }
 
   &--transaction {
-
     &-positive {
       color: green;
     }
@@ -45,4 +43,3 @@
     width: auto;
   }
 }
-
