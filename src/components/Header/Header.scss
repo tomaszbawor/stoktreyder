@@ -6,15 +6,15 @@
   flex-direction: row;
   padding-left: 0;
 
-  $headerHeight: 15vh;
+  $headerHeight: 10rem;
 
-  &--logo {
+  &-logo {
     height: $headerHeight;
+    padding-left: 30px;
   }
 
-  &--title {
+  &-title {
     font-family: 'Lobster', cursive;
-    //background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,12 +28,12 @@
     width: 100%;
     justify-content: center;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 3rem;
   }
 
-  &--subtitle {
+  &-subtitle {
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    font-size: 1.2rem;
   }
 }
